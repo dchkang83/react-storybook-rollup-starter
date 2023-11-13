@@ -1,6 +1,6 @@
 {
   "name": "@djgundam/react-storybook-rollup-starter",
-  "version": "1.0.12",
+  "version": "1.0.18",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "types": "lib/index.d.ts",
@@ -8,7 +8,8 @@
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "build-publish": "yarn build && yarn publish --access public"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.23.3",
@@ -42,5 +43,8 @@
   },
   "resolutions": {
     "jackspeak": "2.1.1"
-  }
+  },
+  "files": [
+    "lib"
+  ]
 }

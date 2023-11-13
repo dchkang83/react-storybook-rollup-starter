@@ -1,5 +1,8 @@
 .storybook/
 src/
-rollup.config.js
+.github/
+workflow/
+./storybook
+rollup.config.mjs
 tsconfig.json
 yarn.lock
