@@ -1,9 +1,9 @@
 {
   "name": "@djgundam/react-storybook-rollup-starter",
   "version": "1.0.18",
-  "main": "lib/index.js",
-  "module": "lib/index.esm.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
   "license": "MIT",
   "scripts": {
     "storybook": "storybook dev -p 6006",
@@ -45,6 +45,6 @@
     "jackspeak": "2.1.1"
   },
   "files": [
-    "lib"
+    "dist"
   ]
 }
