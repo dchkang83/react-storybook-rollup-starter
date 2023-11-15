@@ -1,0 +1,6 @@
+// _ 부분이라고 불리는 것은 scss에게 CSS 파일로 컴파일하지 말라고 지시합니다.
+@import "variables";
+
+// 구성 요소의 CSS를 소개합니다.
+@import "../../components/Button/style";
+
