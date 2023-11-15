@@ -2,8 +2,8 @@ import peerDepsExternal from "rollup-plugin-peer-deps-external";
 import resolve from "@rollup/plugin-node-resolve";
 import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
-import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
+import scss from "rollup-plugin-scss";
 
 // This is required to read package.json file when
 // using Native ES modules in Node.js
@@ -25,20 +25,29 @@ export default [{
       file: packageJson.module,
       format: "esm",
       sourcemap: true
-    }
+    },
   ],
   plugins: [
     peerDepsExternal(),
     resolve(),
     commonjs(),
     typescript(),
-    postcss({
-      extensions: ['.css']
+    scss({
+      // include: ["src/assets/**/*.scss"],
+      insert: true,
+
+      // outputStyle: "compressed", // css 출력 스타일 (expanded: 압축되지 않은, compressed: 압축된, nested: 중첩된)
+      include: ["src/**/*.scss"],
+      // output: 'dist/bundle.css', // 번들된 CSS 파일 경로 설정
+      fileName: 'assets/bundle.css'
     })
   ]
-}, {
+}
+, {
   input: 'dist/index.d.ts',
   output: [{ file: 'dist/index.d.ts', format: 'es' }],
   plugins: [dts()],
-  external: [/\.css$/]
-}];
+  external: [/\.s[ac]ss$/]
+}
+
+];
