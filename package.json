@@ -1,6 +1,6 @@
 {
   "name": "@djgundam/react-storybook-rollup-starter",
-  "version": "1.0.35",
+  "version": "1.0.46",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -9,9 +9,10 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "build": "rollup -c",
-    "build-publish": "yarn build && yarn publish --access public"
+    "build-publish": "yarn build && yarn npm publish --access public"
   },
   "devDependencies": {
+    "@babel/core": "^7.23.3",
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
     "@babel/preset-typescript": "^7.23.3",
@@ -27,6 +28,7 @@
     "@storybook/react": "^7.5.3",
     "@storybook/react-webpack5": "^7.5.3",
     "@storybook/testing-library": "^0.2.2",
+    "@types/babel__core": "^7",
     "@types/react": "^18.2.37",
     "css-loader": "^6.8.1",
     "postcss": "^8.4.31",
@@ -41,6 +43,7 @@
     "sass-loader": "^13.3.2",
     "storybook": "^7.5.3",
     "style-loader": "^3.3.3",
+    "tslib": "^2.6.2",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
@@ -52,5 +55,6 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "packageManager": "yarn@4.0.2"
 }
