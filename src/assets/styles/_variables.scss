@@ -1,2 +1,108 @@
-$gray-100: #f8f9fa !default;
-$gray-200: #e9ecef !default;
+// Global color
+// 1. Brand
+$color-global-mint90: #003B40 !default !default;
+$color-global-mint80: #004C53 !default;
+$color-global-mint70: #006D78 !default;
+$color-global-mint60: #008F9C !default;
+$color-global-mint50: #00A8B8 !default;
+$color-global-mint40: #52C4CF !default;
+$color-global-mint30: #80D8E0 !default;
+$color-global-mint20: #ABE5EB !default;
+$color-global-mint10: #D3F1F5 !default;
+$color-global-mint5: #EFFBFB !default;
+
+// 2. Gray
+$color-global-gray90: #0C0E0F !default;
+$color-global-gray85: #1B1E21 !default;
+$color-global-gray80: #282D32 !default;
+$color-global-gray70: #3E454B !default;
+$color-global-gray60: #515961 !default;
+$color-global-gray50: #69737D !default;
+$color-global-gray40: #828E99 !default;
+$color-global-gray30: #A2ADB8 !default;
+$color-global-gray20: #C1CBD4 !default;
+$color-global-gray10: #DBE2E8 !default;
+$color-global-gray5: #F0F3F5 !default;
+
+// 3. Black & White
+$color-global-black: #000000 !default;
+$color-global-white: #FFFFFF !default;
+
+
+// 4. State
+// 4.1. Red : Negative
+$color-global-red90: #5E1D16 !default;
+$color-global-red80: #75251C !default;
+$color-global-red70: #A3372C !default;
+$color-global-red60: #C94234 !default;
+$color-global-red50: #EB503F !default;
+$color-global-red40: #F78073 !default;
+$color-global-red30: #FCA69D !default;
+$color-global-red20: #FFCAC4 !default;
+$color-global-red10: #FFE3E0 !default;
+$color-global-red5: #FEF3F1 !default;
+
+// 4.2. Yellow : Warning
+$color-global-yellow90: #593800 !default;
+$color-global-yellow80: #754A00 !default;
+$color-global-yellow70: #A86B00 !default;
+$color-global-yellow60: #D18400 !default;
+$color-global-yellow50: #FA9F02 !default;
+$color-global-yellow40: #FFBB45 !default;
+$color-global-yellow30: #FFCC73 !default;
+$color-global-yellow20: #FFDFA6 !default;
+$color-global-yellow10: #FEEDCE !default;
+$color-global-yellow5: #FFF7EB !default;
+
+
+// 4.3. Green : Positive
+$color-global-green90: #07331A !default;
+$color-global-green80: #094222 !default;
+$color-global-green70: #0B6331 !default;
+$color-global-green60: #158244 !default;
+$color-global-green50: #1A9C52 !default;
+$color-global-green40: #4EBA7C !default;
+$color-global-green30: #86D1A6 !default;
+$color-global-green20: #B1E3C7 !default;
+$color-global-green10: #DAF2E5 !default;
+$color-global-green5: #F0FAF4 !default;
+
+
+// 4.4. Blue : Informative
+$color-global-blue90: #15244A !default;
+$color-global-blue80: #152C66 !default;
+$color-global-blue70: #1F3F8F !default;
+$color-global-blue60: #2654C7 !default;
+$color-global-blue50: #3E6FED !default;
+$color-global-blue40: #6B95FF !default;
+$color-global-blue30: #9CB8FF !default;
+$color-global-blue20: #BFD1FF !default;
+$color-global-blue10: #DEE7FF !default;
+$color-global-blue5: #F0F4FF !default;
+
+
+// 5. Palette
+// 5.1. Purple
+$color-global-purple90: #2D1D4F !default;
+$color-global-purple80: #371F69 !default;
+$color-global-purple70: #4A2B8C !default;
+$color-global-purple60: #6638C2 !default;
+$color-global-purple50: #8957F2 !default;
+$color-global-purple40: #AF8AFF !default;
+$color-global-purple30: #C7ABFF !default;
+$color-global-purple20: #DAC9FF !default;
+$color-global-purple10: #EBE3FF !default;
+$color-global-purple5: #F6F4FE !default;
+
+// 5.2. Orange
+$color-global-orange90: #592B07 !default;
+$color-global-orange80: #73370A !default;
+$color-global-orange70: #A64F0F !default;
+$color-global-orange60: #CC6316 !default;
+$color-global-orange50: #FA7D20 !default;
+$color-global-orange40: #FF984A !default;
+$color-global-orange30: #FFB680 !default;
+$color-global-orange20: #FFCFAB !default;
+$color-global-orange10: #FFE6D3 !default;
+$color-global-orange5: #FEF4ED !default;
+
