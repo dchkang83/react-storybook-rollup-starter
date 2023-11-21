@@ -15,7 +15,7 @@
 }
 
 .button-box-solid .dim {
-  background-color: var(--lightbuttondim-pressed);
+  background-color: $lightbuttondim-pressed;
   left: 0;
   position: absolute;
   top: 0;
@@ -30,7 +30,7 @@
 
 .button-box-solid {
   &.disabled {
-    background-color: var(--lightbuttonbackground-disabled);
+    background-color: $lightbuttonbackground-disabled;
   }
 }
 
@@ -50,11 +50,11 @@
 }
 
 .button-box-solid.pressed.tertiary {
-  background-color: var(--lightbuttonbackground-tertiary-enabled);
+  background-color: $lightbuttonbackground-tertiary-enabled;
 }
 
 .button-box-solid.enabled.tertiary {
-  background-color: var(--lightbuttonbackground-tertiary-enabled);
+  background-color: $lightbuttonbackground-tertiary-enabled;
 }
 
 .button-box-solid.error-false.enabled.primary {
@@ -62,7 +62,7 @@
 }
 
 .button-box-solid.enabled.error-true.secondary {
-  background-color: var(--lightbuttonbackground-secondary-error);
+  background-color: $lightbuttonbackground-secondary-error;
 }
 
 .button-box-solid.pressed.error-true.primary {
@@ -74,7 +74,7 @@
 }
 
 .button-box-solid.pressed.error-false.secondary {
-  background-color: var(--lightbuttonbackground-secondary-enabled);
+  background-color: $lightbuttonbackground-secondary-enabled;
 }
 
 .button-box-solid.enabled.error-true.primary {
@@ -82,42 +82,42 @@
 }
 
 .button-box-solid.pressed.error-true.secondary {
-  background-color: var(--lightbuttonbackground-secondary-error);
+  background-color: $lightbuttonbackground-secondary-error;
 }
 
 .button-box-solid.error-false.enabled.secondary {
-  background-color: var(--lightbuttonbackground-secondary-enabled);
+  background-color: $lightbuttonbackground-secondary-enabled;
 }
 
 .button-box-solid.large .button-label {
-  font-family: var(--subtitle-s3-i-medium-15-font-family);
-  font-size: var(--subtitle-s3-i-medium-15-font-size);
-  font-style: var(--subtitle-s3-i-medium-15-font-style);
-  font-weight: var(--subtitle-s3-i-medium-15-font-weight);
-  letter-spacing: var(--subtitle-s3-i-medium-15-letter-spacing);
-  line-height: var(--subtitle-s3-i-medium-15-line-height);
+  font-family: $subtitle-s3-i-medium-15-font-family;
+  font-size: $subtitle-s3-i-medium-15-font-size;
+  font-style: $subtitle-s3-i-medium-15-font-style;
+  font-weight: $subtitle-s3-i-medium-15-font-weight;
+  letter-spacing: $subtitle-s3-i-medium-15-letter-spacing;
+  line-height: $subtitle-s3-i-medium-15-line-height;
 }
 
 .button-box-solid.disabled .button-label {
-  color: var(--lightbuttontext-didsabled);
+  color: $lightbuttontext-didsabled;
 }
 
 .button-box-solid.small .button-label {
-  font-family: var(--caption-c1-i-medium-13-font-family);
-  font-size: var(--caption-c1-i-medium-13-font-size);
-  font-style: var(--caption-c1-i-medium-13-font-style);
-  font-weight: var(--caption-c1-i-medium-13-font-weight);
-  letter-spacing: var(--caption-c1-i-medium-13-letter-spacing);
-  line-height: var(--caption-c1-i-medium-13-line-height);
+  font-family: $caption-c1-i-medium-13-font-family;
+  font-size: $caption-c1-i-medium-13-font-size;
+  font-style: $caption-c1-i-medium-13-font-style;
+  font-weight: $caption-c1-i-medium-13-font-weight;
+  letter-spacing: $caption-c1-i-medium-13-letter-spacing;
+  line-height: $caption-c1-i-medium-13-line-height;
 }
 
 .button-box-solid.medium .button-label {
-  font-family: var(--subtitle-s4-i-medium-14-font-family);
-  font-size: var(--subtitle-s4-i-medium-14-font-size);
-  font-style: var(--subtitle-s4-i-medium-14-font-style);
-  font-weight: var(--subtitle-s4-i-medium-14-font-weight);
-  letter-spacing: var(--subtitle-s4-i-medium-14-letter-spacing);
-  line-height: var(--subtitle-s4-i-medium-14-line-height);
+  font-family: $subtitle-s4-i-medium-14-font-family;
+  font-size: $subtitle-s4-i-medium-14-font-size;
+  font-style: $subtitle-s4-i-medium-14-font-style;
+  font-weight: $subtitle-s4-i-medium-14-font-weight;
+  letter-spacing: $subtitle-s4-i-medium-14-letter-spacing;
+  line-height: $subtitle-s4-i-medium-14-line-height;
 }
 
 .button-box-solid.pressed.primary .button-label {
@@ -133,11 +133,11 @@
 }
 
 .button-box-solid.error-false.enabled.tertiary .button-label {
-  color: var(--lightbuttontext-secondary);
+  color: $lightbuttontext-secondary;
 }
 
 .button-box-solid.pressed.error-false.tertiary .button-label {
-  color: var(--lightbuttontext-secondary);
+  color: $lightbuttontext-secondary;
 }
 
 .button-box-solid.enabled.error-true.tertiary .button-label {
@@ -149,7 +149,7 @@
 }
 
 .button-box-solid.pressed.error-false.secondary .button-label {
-  color: var(--globalmintmint-60);
+  color: $globalmintmint-60;
 }
 
 .button-box-solid.pressed.error-true.secondary .button-label {
@@ -157,7 +157,7 @@
 }
 
 .button-box-solid.error-false.enabled.secondary .button-label {
-  color: var(--globalmintmint-60);
+  color: $globalmintmint-60;
 }
 
 .button-box-solid.large .dim {
