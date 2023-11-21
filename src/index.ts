@@ -1,7 +1,7 @@
 // 공통 SCSS 파일 import
 import './assets/styles/index.scss';
 
-import { SolidButton } from './components/Button/Solid/SolidButton';
+import { ButtonBoxSolid } from './components/Button/Solid/ButtonBoxSolid';
 import { Sample } from './components/Sample/Sample';
 
-export { SolidButton, Sample };
+export { ButtonBoxSolid, Sample };
